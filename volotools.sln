@@ -7,19 +7,25 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "volotools", "volotools.cspr
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupVoloTools", "..\SetupVoloTools\SetupVoloTools.vdproj", "{3ECD400A-3EBA-26D1-FF8A-C413EFD22905}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Updater", "..\Updater\Updater.csproj", "{7568C523-61F8-48EC-8CFD-E66F4693BB97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{081C0C03-10E2-4345-B6F5-0627957EF918}.Debug|Any CPU.ActiveCfg = Release|Any CPU
-		{081C0C03-10E2-4345-B6F5-0627957EF918}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{081C0C03-10E2-4345-B6F5-0627957EF918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{081C0C03-10E2-4345-B6F5-0627957EF918}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{081C0C03-10E2-4345-B6F5-0627957EF918}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{081C0C03-10E2-4345-B6F5-0627957EF918}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3ECD400A-3EBA-26D1-FF8A-C413EFD22905}.Debug|Any CPU.ActiveCfg = Release
 		{3ECD400A-3EBA-26D1-FF8A-C413EFD22905}.Debug|Any CPU.Build.0 = Release
 		{3ECD400A-3EBA-26D1-FF8A-C413EFD22905}.Release|Any CPU.ActiveCfg = Release
+		{7568C523-61F8-48EC-8CFD-E66F4693BB97}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{7568C523-61F8-48EC-8CFD-E66F4693BB97}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{7568C523-61F8-48EC-8CFD-E66F4693BB97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7568C523-61F8-48EC-8CFD-E66F4693BB97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
