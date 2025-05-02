@@ -1,0 +1,50 @@
+####################################################################################################
+Package:MahApps.Metro
+Version:2.4.10
+project URL:https://github.com/MahApps/MahApps.Metro
+Description:The goal of MahApps.Metro is to allow devs to quickly and easily cobble together a 'Modern' UI for their WPF apps (>= .Net 4.5), with minimal effort.
+licenseUrl:https://licenses.nuget.org/MIT
+license Type:MIT
+
+####################################################################################################
+Package:MaterialDesignColors
+Version:5.2.1
+project URL:https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit
+Description:ResourceDictionary instances containing standard Google Material Design swatches,
+      for inclusion in a XAML application.
+licenseUrl:https://licenses.nuget.org/MIT
+license Type:MIT
+
+####################################################################################################
+Package:MaterialDesignThemes
+Version:5.2.1
+project URL:https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit
+Description:ResourceDictionary instances containing Material Design templates and styles for
+      WPF controls in .NET.
+licenseUrl:https://licenses.nuget.org/MIT
+license Type:MIT
+
+####################################################################################################
+Package:NAudio
+Version:2.2.1
+project URL:https://github.com/naudio/NAudio
+Description:NAudio, an audio library for .NET
+licenseUrl:https://www.nuget.org/packages/NAudio/2.2.1/License
+license Type:license.txt
+
+####################################################################################################
+Package:NetSparkleUpdater.UI.WPF
+Version:3.0.2
+project URL:https://github.com/NetSparkleUpdater/NetSparkle
+Description:NetSparkleUpdater/NetSparkle app updater framework with built-in WPF .NET Core and .NET Framework UI. NetSparkleUpdater/NetSparkle is a C# .NET software update framework that allows you to easily download installer files and update your C# .NET Framework or .NET Core software. Built-in UIs are available for WinForms, WPF, and Avalonia. You provide, somewhere on the internet, an XML appcast with software version information along with release notes in Markdown or HTML format. The NetSparkle framework then checks for an update in the background, displays the release notes to the user, and lets users download or skip the software update. The framework can also perform silent downloads so that you can present all of the UI yourself or set up your own silent software update system, as allowed by your software architecture. It was inspired by the Sparkle (https://sparkle-project.org/) project for Cocoa developers and the WinSparkle (https://winsparkle.org/) project (a Win32 port).
+licenseUrl:https://licenses.nuget.org/MIT
+license Type:MIT
+
+####################################################################################################
+Package:ReactiveProperty
+Version:9.7.0
+project URL:https://github.com/runceel/ReactiveProperty
+Description:ReactiveProperty is MVVM and Asynchronous Extensions for Reactive Extensions(System.Reactive).
+licenseUrl:https://licenses.nuget.org/MIT
+license Type:MIT
+

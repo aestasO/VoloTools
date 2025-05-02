@@ -1,0 +1,60 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <SignAssembly>True</SignAssembly>
+    <ApplicationIcon>VoloTools.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="appcast.xml" />
+    <None Remove="assets\VideoDownloader\banner.png" />
+    <None Remove="banner.png" />
+    <None Remove="Resources\yt-dlp.exe" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="Resources\Themes\TealDark.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\yt-dlp.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VoloTools.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MahApps.Metro" Version="2.4.10" />
+    <PackageReference Include="MaterialDesignColors" Version="5.2.1" />
+    <PackageReference Include="MaterialDesignThemes" Version="5.2.1" />
+    <PackageReference Include="NAudio" Version="2.2.1" />
+    <PackageReference Include="ReactiveProperty" Version="9.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="appcast.xml" />
+    <Resource Include="assets\VideoDownloader\banner.png" />
+    <Resource Include="Resources\Themes\TealDark.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
